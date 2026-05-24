@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "dropall",
+  "version": "${version}",
+  "name": "Drop All",
+  "description": "Adds a Drop All button to every inventory and container screen.",
+  "authors": ["Your Name"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.dropall.DropAllMod"],
+    "client": ["com.example.dropall.client.DropAllClient"]
+  },
+  "mixins": ["dropall.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

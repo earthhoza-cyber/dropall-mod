@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.example.dropall.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": [
+    "HandledScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
