@@ -11,7 +11,10 @@ base {
 }
 
 repositories {
+    repositories {
     maven { url 'https://maven.fabricmc.net/' }
+    maven { url 'https://libraries.minecraft.net/' }
+    mavenCentral()
 }
 
 dependencies {
